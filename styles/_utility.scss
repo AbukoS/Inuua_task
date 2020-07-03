@@ -1,0 +1,26 @@
+button {
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin: 4em auto 1em auto;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 9px;
+  color: white;
+  background-color: rgb(16, 8, 34);
+  border: none;
+  outline: none;
+  &:hover {
+    background-color: rgb(34, 34, 63);
+  }
+}
+
+input {
+  background: none;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  height: 45px;
+  border-radius: 9px;
+  border: 2px solid gray;
+}

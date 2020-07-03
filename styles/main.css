@@ -1,4 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+button {
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin: 4em auto 1em auto;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 9px;
+  color: white;
+  background-color: #100822;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #22223f;
+}
+
+input {
+  background: none;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  height: 45px;
+  border-radius: 9px;
+  border: 2px solid gray;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -80,34 +108,6 @@ body {
 .info ul li {
   list-style-type: none;
   margin-top: 20px;
-}
-
-.info input {
-  background: none;
-  width: 100%;
-  margin-top: 10px;
-  padding-left: 20px;
-  height: 45px;
-  border-radius: 9px;
-  border: 2px solid gray;
-}
-
-.info button {
-  display: block;
-  width: 100%;
-  height: 45px;
-  margin: 4em auto 1em auto;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 9px;
-  color: white;
-  background-color: #100822;
-  border: none;
-  outline: none;
-}
-
-.info button:hover {
-  background-color: #22223f;
 }
 
 @media screen and (max-width: 1200px) {

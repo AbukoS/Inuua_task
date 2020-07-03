@@ -1,0 +1,126 @@
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+  }
+  .image {
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+    .buys {
+      width: 60%;
+    }
+  }
+  .info {
+    width: 100%;
+  }
+  .details {
+    .title {
+      font-size: 25px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+  }
+  .image {
+    height: 250px !important;
+    width: 100%;
+    background-size: 100%;
+    .buys {
+      width: 43%;
+    }
+  }
+  .info {
+    width: 100%;
+  }
+  .details {
+    .title {
+      font-size: 25px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and(max-width: 414px) {
+  .container {
+    margin-top: 0;
+    display: block;
+  }
+  .image {
+    height: 200px !important;
+    width: 100%;
+    background-size: 100%;
+    .buys {
+      width: 60%;
+    }
+  }
+  .info {
+    width: 100%;
+  }
+  .details {
+    .title {
+      font-size: 27px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and(max-width: 375px) {
+  .container {
+    margin-top: 0;
+    display: block;
+  }
+  .image {
+    height: 200px !important;
+    width: 100%;
+    background-size: 100%;
+    .buys {
+      width: 60%;
+    }
+  }
+  .info {
+    width: 100%;
+  }
+  .details {
+    .title {
+      font-size: 25px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and(max-width: 320px) {
+  .container {
+    display: block;
+  }
+  .image {
+    height: 170px !important;
+    width: 100%;
+    background-size: 100%;
+    .buys {
+      width: 60%;
+    }
+  }
+  .info {
+    width: 100%;
+  }
+  .details {
+    .title {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 18px !important;
+    }
+  }
+}
